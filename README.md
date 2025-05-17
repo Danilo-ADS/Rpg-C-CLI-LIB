@@ -1,33 +1,46 @@
-# CLI-lib
+Caçadores de GOT
+ste jogo é um jogo de combate interativo desenvolvido utilizando a CLI-lib para interação com o terminal. O jogador enfrenta inimigos e pode realizar ações como atacar, esquivar e melhorar suas habilidades. A cada turno, o jogador escolhe suas ações e o sistema do jogo exibe o estado atual da batalha, incluindo a vida do jogador e do inimigo.
 
-Biblioteca de linha de comando (CLI) desenvolvida para facilitar a criação de interfaces de terminal em aplicações Python.
+Regras do Jogo:
+Atacar (a): O jogador pode escolher atacar o inimigo.
 
-## 👥 Membros da Equipe
+Esquivar (e): O jogador pode tentar esquivar de um ataque inimigo.
 
-- Danilo Novaes - [@Danilo-ADS](https://github.com/Danilo-ADS)
+Melhorias: Após cada combate, o jogador pode escolher melhorias para suas habilidades (como ataque ou esquiva).
 
-## 📂 Repositório
+O objetivo do jogo é derrotar inimigos, melhorar as habilidades do jogador e alcançar a maior pontuação possível.
 
-O código-fonte está disponível no GitHub:
+👥 Membros da Equipe
+Danilo Novaes - @Danilo-ADS
 
-🔗 [https://github.com/tgfb/cli-lib](https://github.com/tgfb/cli-lib)
+📂 Repositório
+O código-fonte da biblioteca está disponível no GitHub:
 
-## 📘 Informações Acadêmicas
+🔗 https://github.com/tgfb/cli-lib
 
-- **Disciplina:** Programação Imperativa e Funcional - 2025.1  
-- **Instituição:** CESAR School
+📘 Informações Acadêmicas
+Disciplina: Programação Imperativa e Funcional - 2025.1
 
-## 📦 Sobre a Biblioteca
+Instituição: CESAR School
 
-A `CLI-lib` é uma biblioteca modular voltada para facilitar a construção de interfaces de linha de comando. Ela oferece funcionalidades como:
+📦 Sobre a Biblioteca
+A CLI-lib é uma biblioteca modular que visa simplificar a criação de interfaces de linha de comando no C. Ela oferece funcionalidades como:
 
-- Parsing de argumentos
-- Validação de entrada
-- Execução de comandos com estrutura organizada
+Parsing de Argumentos: Capacidade de interpretar e processar argumentos fornecidos ao programa através da linha de comando.
 
-## 🚀 Como Usar
+Validação de Entrada: Facilita a validação de dados inseridos pelo usuário para garantir que sejam corretos e coerentes.
 
-### Instalação via `pip` (caso publicada):
+Execução de Comandos: Fornece uma estrutura organizada para o lançamento e execução de comandos com interação no terminal.
 
-```bash
-pip install cli-lib
+🚀 Como Usar
+Para usar a CLI-lib, você deve seguir os seguintes passos:
+
+Baixe o repositório no GitHub e adicione os arquivos da biblioteca ao seu projeto.
+
+Inclua o cabeçalho da CLI-lib em seu código:
+
+c
+Copiar
+Editar
+#include "cli-lib.h"
+Compile e execute o código. Se necessário, adicione a pasta da biblioteca ao seu diretório de include.
