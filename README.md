@@ -1,5 +1,5 @@
 Caçadores de GOT
-ste jogo é um jogo de combate interativo desenvolvido utilizando a CLI-lib para interação com o terminal. O jogador enfrenta inimigos e pode realizar ações como atacar, esquivar e melhorar suas habilidades. A cada turno, o jogador escolhe suas ações e o sistema do jogo exibe o estado atual da batalha, incluindo a vida do jogador e do inimigo.
+este jogo é um jogo de combate interativo desenvolvido utilizando a CLI-lib para interação com o terminal. O jogador enfrenta inimigos e pode realizar ações como atacar, esquivar e melhorar suas habilidades. A cada turno, o jogador escolhe suas ações e o sistema do jogo exibe o estado atual da batalha, incluindo a vida do jogador e do inimigo.
 
 Regras do Jogo:
 Atacar (a): O jogador pode escolher atacar o inimigo.
