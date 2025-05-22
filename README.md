@@ -46,9 +46,6 @@ Compile e execute o código. Se necessário, adicione a pasta da biblioteca ao s
 🛠️ Instruções de Compilação
 Para compilar o projeto, utilize o comando abaixo no terminal (dentro da pasta raiz do projeto):
 
-bash
-Copiar
-Editar
 gcc src/main.c src/keyboard.c src/screen.c src/timer.c -Iinclude -o jogo.exe
 Explicação:
 src/main.c src/keyboard.c src/screen.c src/timer.c: Arquivos fonte do projeto.
