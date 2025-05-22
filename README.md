@@ -64,3 +64,10 @@ Para compilar o projeto, execute o seguinte comando no terminal:
 
 ```bash
 gcc src/main.c src/keyboard.c src/screen.c src/timer.c -Iinclude -o jogo.exe
+
+### 🔍 Explicação
+
+- `src/main.c src/keyboard.c src/screen.c src/timer.c`: Arquivos-fonte do projeto  
+- `-Iinclude`: Adiciona a pasta `include` ao caminho de cabeçalhos  
+- `-o jogo.exe`: Define o nome do executável como `jogo.exe`
+
